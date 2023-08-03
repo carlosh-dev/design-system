@@ -1,0 +1,4 @@
+{
+  "extends": "@carlosh-ui/ts-config/react.json",
+  "include": ["src"]
+}
