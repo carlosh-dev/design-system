@@ -1,8 +1,9 @@
 # Components
 
+- [x] Box
 - [ ] Button
-- [ ] Heading
-- [ ] Text
+- [X] Heading
+- [X] Text
 - [ ] TextInput
 - [ ] Textarea
 - [ ] Checkbox

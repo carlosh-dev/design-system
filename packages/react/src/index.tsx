@@ -1,7 +1,3 @@
-export type ButtonProps = {
-  variant?: 'primary' | 'secondary'
-}
-
-export function Button() {
-  return <button>Button</button>
-}
+export * from './components/Box'
+export * from './components/Text'
+export * from './components/Heading'
