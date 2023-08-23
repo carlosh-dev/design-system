@@ -4,8 +4,17 @@ import { Heading, HeadingProps } from '@carlosh-ui/react'
 export default {
   title: 'Typography/Heading',
   component: Heading,
+  tags: ['autodocs'],
   args: {
+    sizes: 'md',
     children: 'Custom title',
+  },
+  argTypes: {
+    sizes: {
+      options: ['sm', 'md', 'lg', '2xl', '3xl', '4xl', '5xl', '6xl'],
+      control: { type: 'inline-radio' },
+      defaultValue: 'md',
+    },
   },
 } as Meta<HeadingProps>
 
