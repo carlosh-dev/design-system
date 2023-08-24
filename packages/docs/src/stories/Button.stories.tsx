@@ -7,7 +7,6 @@ export default {
   component: Button,
   tags: ['autodocs'],
   args: {
-    variant: 'primary',
     children: 'Send',
     size: 'md',
   },
