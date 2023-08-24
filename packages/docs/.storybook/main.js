@@ -1,4 +1,5 @@
 import { join, dirname } from "path";
+import { mergeConfig } from "vite";
 
 /**
  * This function is used to resolve the absolute path of a package.
